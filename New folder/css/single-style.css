@@ -1,0 +1,114 @@
+.page-wrapper{
+	background-color: rgba( 208, 204, 199, 0.306 );
+}
+.page-wrapper .content{
+	margin-top: 0;
+	padding-top: 50px;
+}
+.single{
+	background-color: white;
+	font-size: 1.1em;
+	float: right;
+	width: 100%;
+}
+.single .content{
+	display: block;
+	width: 100%;
+	padding: 0;
+	margin: 0;	
+}
+.single .content .image{
+	display: block;
+	width: 30%;
+	float: left;
+	padding: 3%;
+}
+.single .content .image .btn{
+	width: 200px;
+	padding: 13px;
+	font-size: 18px;
+	font-family: 'lora',serif;
+	margin-top: 17px;
+	display: block;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+	background-color: #09a0dc;
+	transition: all 0.3s;
+}
+.single .content .image .btn:hover{
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
+    transform: scale(0.95);
+}
+.single .content .info{
+	width: 70%;
+	float: right;
+}
+.single .content .info h1,h2,h4,p{
+	padding-left: 15px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	font-family: 'lora',serif;
+}
+.single .content .info .book-title{
+	font-size: 40px;
+	font-family: 'lora',serif;
+}
+.single .content .info .author{
+	font-size: 30px;
+	padding-top: 0;
+	margin-top: 0;
+}
+.single .content .info .summary{
+	font-size: 40px;
+}
+.single .content .info p{
+	color: black;
+	font-size: 18px;
+	padding-bottom: 25px;
+}
+.single .content .info h4{
+	margin-top: 0;
+	padding-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+/*Sidebar*/
+
+.content .sidebar{
+	width: 29%;
+	float: right;
+	padding-bottom: 20px;
+	background-color: white;
+}
+.content .popular .section-title{
+	font-family: bell-mt;
+}
+.content .popular .post{
+	margin-top: 10px;
+	padding-top: 10px;
+	font-size: 20px;
+	font-family: 'lora',serif;
+	background-color: rgba( 192, 192, 185, 0.137 );
+	line-height: 60px;
+	cursor: pointer;
+	transition: 0.5s all;	
+}
+.content .popular .post:hover{
+	background-color: rgba( 150, 150, 129, 0.289 );
+	color: #F05053;
+	transition: 0.5s all;
+}
+.content .popular .post img{
+	width: 60px;
+	height: 70px;
+	float: left;
+	margin-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+/* //Sidebar */
+
+
